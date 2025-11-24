@@ -42,14 +42,16 @@ fun main(): Unit = application {
     ) {
         App()
     }
-    student4Print()
+    student2Print()
 }
 
 // пробный коммит
 
-private fun student4Print() {
-    val numerator = 20.0
-    val denominator = 3.0
-    val result = numerator / denominator
-    println("Student 4: $numerator / $denominator = ${"%.2f".format(result)}")
+
+private fun student2Print() {
+    val x = 7
+    val y = 8
+    val product = x * y
+    println("Student 2: $x * $y = $product")
 }
+
